@@ -166,7 +166,7 @@ def draw_ui(
     row2_y = 58
 
     # Row 1: title (left)
-    title = title_font.render("Short-Term Memory Game", True, WHITE)
+    title = title_font.render("Short-Term Memory Game by Clotho", True, WHITE)
     screen.blit(title, (padding, row1_y))
 
     # Row 1: score/round (right)
